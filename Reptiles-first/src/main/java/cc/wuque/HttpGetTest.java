@@ -18,7 +18,7 @@ public class HttpGetTest {
         CloseableHttpClient httpClient = HttpClients.createDefault();
 
         //创建HttpGet对象，设置url访问地址
-        HttpGet httpGet = new HttpGet("http://www.wuquejs.cn");
+        HttpGet httpGet = new HttpGet("");
 
         CloseableHttpResponse response = null;
 
