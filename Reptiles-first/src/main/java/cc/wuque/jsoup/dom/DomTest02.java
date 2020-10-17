@@ -15,7 +15,7 @@ import java.util.Set;
 public class DomTest02 {
     public static void main(String[] args) throws Exception {
         //解析文件
-        Document document = Jsoup.parse(new File("C:\\Users\\无缺\\Desktop\\index.html"), "utf-8");
+        Document document = Jsoup.parse(new File("Reptiles-first\\src\\main\\resources\\index.html"), "utf-8");
 
         //根据id获取元素
         Element element = document.getElementById("test");
